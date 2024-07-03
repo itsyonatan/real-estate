@@ -1,0 +1,28 @@
+.accordian-item {
+  padding: 1rem;
+  border: 1px solid rgb(221, 220, 220);
+  margin-bottom: 1rem;
+}
+
+.accordian-title {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.accordian-title .title {
+  font-size: 1rem;
+}
+
+.accordian-title .logo,
+.plus {
+  padding: 0.7rem;
+  background: rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.accordian-title .plus {
+  color: var(--blue);
+}
+.active{
+box-shadow: 0 8px 9px rgba(136, 150, 255, 0.459);
+}

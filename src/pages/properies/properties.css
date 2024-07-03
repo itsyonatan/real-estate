@@ -1,0 +1,18 @@
+.properties {
+  gap: 2rem;
+}
+
+.properties-content {
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  border: 1px solid rgb(243, 243, 243);
+  width: clamp(10rem, 100%, 28rem);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.014);
+}
+
+.row-menu-container ul li:nth-child(2) {
+  border-bottom: 1px solid orange;
+}

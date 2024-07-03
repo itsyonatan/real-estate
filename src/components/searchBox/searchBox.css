@@ -1,0 +1,31 @@
+.search-box {
+  background: var(--white);
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.search-box .search-input{
+  flex: 1;
+}
+
+.search-box .search-btn {
+  font-size: 0.84rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  transition: var(--transition);
+}
+
+.search-box .search-btn:hover {
+  transform: scale(1.1);
+}
+
+.search-box .location-logo {
+  color: var(--blue);
+}
+
