@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./propertyCard.css"
 
 
@@ -6,7 +6,7 @@ export default function PropertyCard({ item }) {
 
   return (
     <div>
-      <Link to={"/"}>
+      <Link>
         <div className="properties-item flexColStart" key={item.id} >
           <img src={item.image} alt="" />
           <span className="r-price secondaryText">

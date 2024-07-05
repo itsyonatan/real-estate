@@ -1,5 +1,5 @@
 
-import { HiChat, HiChatAlt, HiChatAlt2, HiOutlinePhone, HiPhone, HiPhoneIncoming, HiPhoneMissedCall, HiSearchCircle, HiVideoCamera } from "react-icons/hi"
+import { HiChat, HiChatAlt2, HiPhone, HiVideoCamera } from "react-icons/hi"
 import "./contact.css"
 import { motion } from "framer-motion"
 

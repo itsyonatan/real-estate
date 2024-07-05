@@ -3,14 +3,14 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./residencies.css";
 import PropertyCard from "../propertyCard/propertyCard";
-import UseFetch from "../../utils/customFetch/customFetch";
-import { PuffLoader } from "react-spinners";
+//import UseFetch from "../../utils/customFetch/customFetch";
+//import { PuffLoader } from "react-spinners";
 import { data } from "../../data/data";
 import { motion } from "framer-motion";
 
 const Residencies = () => {
 
-  const { isPending, error } = UseFetch("http://localhost:8000/data");
+  //const { isPending, error } = UseFetch("http://localhost:8000/data");
 
   const sliderSettings = {
     slidesPerView: 1,

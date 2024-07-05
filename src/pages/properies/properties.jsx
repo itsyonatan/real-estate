@@ -2,15 +2,14 @@
 import "./properties.css"
 import PropertyCard from "../../components/propertyCard/propertyCard"
 import SearchBox from "../../components/searchBox/searchBox"
-import UseFetch from "../../utils/customFetch/customFetch";
-import { PuffLoader } from "react-spinners";
+//import UseFetch from "../../utils/customFetch/customFetch";
+//import { PuffLoader } from "react-spinners";
 import {data} from "../../data/data"
 
 export default function Properties() {
 
-  const { isPending, error } = UseFetch("http://localhost:8000/data");
+ // const { isPending, error } = UseFetch("http://localhost:8000/data");
   console.log(data);
-  console.log(error);
 
   return (
     <div className="properties container paddings flexColCenter">
