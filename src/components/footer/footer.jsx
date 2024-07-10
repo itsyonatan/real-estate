@@ -18,10 +18,10 @@ export default function Footer() {
           <p className="secondaryText">145 New York, FL 5467, USA</p>
           <div className="footer-list">
             <ul className="flexCenter">
-              <li><a href="#">Property</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="#property">Property</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#about">About Us</a></li>
             </ul>
           </div>
         </div>
